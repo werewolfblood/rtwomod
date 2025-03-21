@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rtwomod:block/stone/dwarf_stone/dwarf_brick",
+    "side": "rtwomod:block/stone/dwarf_stone/dwarf_brick",
+    "top": "rtwomod:block/stone/dwarf_stone/dwarf_brick"
+  }
+}

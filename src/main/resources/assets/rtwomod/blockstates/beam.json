@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "rtwomod:log/dwarf_log/beam" },
+    "axis=x": { "model": "rtwomod:log/dwarf_log/beam", "x": 90 },
+    "axis=z": { "model": "rtwomod:log/dwarf_log/beam", "x": 90, "y": 90 }
+  }
+}

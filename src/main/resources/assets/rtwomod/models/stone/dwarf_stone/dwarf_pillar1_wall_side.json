@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "rtwomod:block/stone/dwarf_stone/dwarf_pillar1"
+  }
+}

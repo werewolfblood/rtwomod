@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "rtwomod:block/log/dwarf_log/dwarf_planks"
+  }
+}

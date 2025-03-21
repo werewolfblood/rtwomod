@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "rtwomod:dwarf_pillar1_wall",
+    "rtwomod:chaos_pillar_wall",
+    "rtwomod:dwarf_planks_wall"
+  ]
+}

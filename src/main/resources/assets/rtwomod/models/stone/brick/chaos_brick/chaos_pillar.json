@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rtwomod:block/stone/brick/chaos_brick/chaos_pillar_top",
+    "side": "rtwomod:block/stone/brick/chaos_brick/chaos_pillar"
+  }
+}

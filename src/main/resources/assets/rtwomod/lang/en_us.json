@@ -1,0 +1,74 @@
+{
+  "block.rtwomod.stone1": "stone1",
+  "block.rtwomod.stone2": "stone2",
+  "block.rtwomod.stone3": "stone3",
+  "block.rtwomod.stone4": "stone4",
+  "block.rtwomod.stone5": "stone5",
+
+
+
+  "block.rtwomod.chalk": "chalk",
+  "block.rtwomod.chalk1": "chalk1",
+  "block.rtwomod.chalk2": "chalk2",
+  "block.rtwomod.chalk3": "chalk3",
+
+  "block.rtwomod.limestone": "limestone",
+  "block.rtwomod.limestone1": "limestone1",
+  "block.rtwomod.limestone2": "limestone2",
+
+  "block.rtwomod.blueglow_log": "blueglow_log",
+  "block.rtwomod.stripped_blueglow_log": "stripped_blueglow_log",
+
+
+  "block.rtwomod.dwarf_stone": "dwarf_stone",
+  "block.rtwomod.dwarf_stone_way": "dwarf_stone_way",
+  "block.rtwomod.dwarf_light": "dwarf_light",
+  "block.rtwomod.dwarf_brick": "dwarf_brick",
+  "block.rtwomod.dwarf_brick1": "dwarf_brick1",
+  "block.rtwomod.dwarf_pillar": "dwarf_pillar",
+  "block.rtwomod.dwarf_pillar1": "dwarf_pillar1",
+  "block.rtwomod.dwarf_brick_slab": "dwarf_brick_slab",
+  "block.rtwomod.dwarf_stone_slab": "dwarf_stone_slab",
+  "block.rtwomod.dwarf_cobble1": "dwarf_cobble1",
+  "block.rtwomod.dwarf_stone1": "dwarf_stone1",
+  "block.rtwomod.dwarf_cobble": "dwarf_cobble",
+  "block.rtwomod.dwarf_pillar_wall": "dwarf_pillar_wall",
+
+
+
+
+
+
+  "block.rtwomod.dark_elf_log": "dark_elf_log",
+  "block.rtwomod.stripped_dark_elf_log": "stripped_dark_elf_log",
+  "block.rtwomod.dark_elf_log1": "dark_elf_log1",
+  "block.rtwomod.dark_elf_log2": "dark_elf_log2",
+  "block.rtwomod.dark_elf_log3": "dark_elf_log3",
+  "block.rtwomod.dark_elf_log4": "dark_elf_log4",
+
+
+  "block.rtwomod.drow_brick": "drow_brick",
+  "block.rtwomod.drow_brick1": "drow_brick1",
+
+  "block.rtwomod.dwarf_log": "dwarf_log",
+
+  "block.rtwomod.sunelf_log": "sunelf_log",
+  "block.rtwomod.sunelf_log1": "sunelf_log1",
+
+  "block.rtwomod.silver_log": "silver_log",
+
+  "block.rtwomod.skaven_log": "skaven_log",
+
+
+  "itemgroup.rtwomod.dwarf_log": "dwarf_log",
+  "itemgroup.rtwomod.blueglow_log": "blueglow_log",
+  "itemgroup.rtwomod.dark_elf_log": "dark_elf_log",
+  "itemgroup.rtwomod.sunelf_log": "sunelf_log",
+  "itemgroup.rtwomod.silver_log": "silver_log",
+  "itemgroup.rtwomod.skaven_log": "skaven_log",
+  "itemgroup.rtwomod.stone": "stone",
+  "itemgroup.rtwomod.chalk": "chalk",
+  "itemgroup.rtwomod.limestone": "limestone",
+  "itemgroup.rtwomod.dwarf_stone": "dwarf_stone",
+  "itemgroup.rtwomod.drow_brick": "drow_brick"
+}

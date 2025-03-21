@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rtwomod:stone/brick/chaos_brick/chaos_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rtwomod:stone/brick/chaos_brick/chaos_pillar"
+    },
+    "axis=z": {
+      "model": "rtwomod:stone/brick/chaos_brick/chaos_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

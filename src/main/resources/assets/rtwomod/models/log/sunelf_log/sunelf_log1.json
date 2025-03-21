@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rtwomod:block/log/sunelf_log/sunelf_log1_top",
+    "side": "rtwomod:block/log/sunelf_log/sunelf_log1"
+  }
+}

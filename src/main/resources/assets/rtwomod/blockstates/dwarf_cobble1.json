@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height2"
+    },
+    "layers=2": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height4"
+    },
+    "layers=3": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height6"
+    },
+    "layers=4": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height8"
+    },
+    "layers=5": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height10"
+    },
+    "layers=6": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height12"
+    },
+    "layers=7": {
+      "model": "rtwomod:stone/dwarf_stone/dwarf_cobble1_height14"
+    },
+    "layers=8": {
+      "model": "rtwomod:block/stone/dwarf_stone/dwarf_cobble1"
+    }
+  }
+}

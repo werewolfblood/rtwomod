@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rtwomod:block/log/dark_elf_log/dark_elf_log3_top",
+    "side": "rtwomod:block/log/dark_elf_log/dark_elf_log3"
+  }
+}

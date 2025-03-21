@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rtwomod:log/sunelf_log/sunelf_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rtwomod:log/sunelf_log/sunelf_log"
+    },
+    "axis=z": {
+      "model": "rtwomod:log/sunelf_log/sunelf_log_horizontal",
+      "x": 90
+    }
+  }
+}

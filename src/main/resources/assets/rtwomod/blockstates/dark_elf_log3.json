@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rtwomod:log/dark_elf_log/dark_elf_log3_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rtwomod:log/dark_elf_log/dark_elf_log3"
+    },
+    "axis=z": {
+      "model": "rtwomod:log/dark_elf_log/dark_elf_log3_horizontal",
+      "x": 90
+    }
+  }
+}

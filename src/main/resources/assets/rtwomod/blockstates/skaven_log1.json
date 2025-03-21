@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rtwomod:log/skaven_log/skaven_log1_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rtwomod:log/skaven_log/skaven_log1"
+    },
+    "axis=z": {
+      "model": "rtwomod:log/skaven_log/skaven_log1_horizontal",
+      "x": 90
+    }
+  }
+}
