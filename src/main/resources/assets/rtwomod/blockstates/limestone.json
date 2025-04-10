@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "rtwomod:stone/brick/limestone"
+      "model": "rtwomod:men/limestone"
     }
   }
 }

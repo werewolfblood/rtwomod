@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "rtwomod:log/dwarf_log/dwarf_log"
-  }
-}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "rtwomod:block/log/dwarfoak_leaves"
+  }
+}

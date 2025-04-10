@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "rtwomod:block/log/walnut_planks",
-    "side": "rtwomod:block/log/walnut_planks",
-    "top": "rtwomod:block/log/walnut_planks"
-  }
-}

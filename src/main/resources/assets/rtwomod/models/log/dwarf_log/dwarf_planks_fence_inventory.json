@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/fence_inventory",
-  "textures": {
-    "texture": "rtwomod:log/dwarf_log/dwarf_planks"
-  }
-}

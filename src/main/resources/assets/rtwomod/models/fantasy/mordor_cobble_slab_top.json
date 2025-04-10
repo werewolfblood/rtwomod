@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "rtwomod:block/fantasy/mordor_cobble",
+    "side": "rtwomod:block/fantasy/mordor_cobble",
+    "top": "rtwomod:block/fantasy/mordor_cobble"
+  }
+}

@@ -4,6 +4,7 @@ package com.west.rtwomod;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.block.SnowBlock;
+import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
@@ -38,5 +39,10 @@ public class Cobble extends SnowBlock {
     @Override
     protected void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         super.onBlockAdded(state, world, pos, oldState, notify);
+    }
+
+    @Override
+    protected boolean canReplace(BlockState state, ItemPlacementContext context) {
+        return super.canReplace(state, context);
     }
 }

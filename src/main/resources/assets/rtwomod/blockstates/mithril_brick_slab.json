@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rtwomod:fantasy/mithril_brick_slab"
+    },
+    "type=double": {
+      "model": "rtwomod:fantasy/mithril_brick"
+    },
+    "type=top": {
+      "model": "rtwomod:fantasy/mithril_brick_slab_top"
+    }
+  }
+}

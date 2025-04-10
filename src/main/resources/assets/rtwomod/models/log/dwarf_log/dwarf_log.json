@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "rtwomod:block/log/dwarf_log/dwarf_log_top",
-    "side": "rtwomod:block/log/dwarf_log/dwarf_log"
-  }
-}

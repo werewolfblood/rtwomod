@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "rtwomod:stone/brick/limestone1"
+      "model": "rtwomod:stone/cobblestone/limestone/limestone1"
     }
   }
 }

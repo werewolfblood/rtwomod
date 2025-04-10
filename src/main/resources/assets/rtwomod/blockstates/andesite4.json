@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height2"
+    },
+    "layers=2": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height4"
+    },
+    "layers=3": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height6"
+    },
+    "layers=4": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height8"
+    },
+    "layers=5": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height10"
+    },
+    "layers=6": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height12"
+    },
+    "layers=7": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite_height14"
+    },
+    "layers=8": {
+      "model": "rtwomod:stone/cobblestone/andesite/andesite"
+    }
+  }
+}

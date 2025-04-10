@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rtwomod:fantasy/mordor_cobble_slab"
+    },
+    "type=double": {
+      "model": "rtwomod:fantasy/mordor_cobble"
+    },
+    "type=top": {
+      "model": "rtwomod:fantasy/mordor_cobble_slab_top"
+    }
+  }
+}

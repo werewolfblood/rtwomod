@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "rtwomod:block/fantasy/mithril_brick",
+    "side": "rtwomod:block/fantasy/mithril_brick",
+    "top": "rtwomod:block/fantasy/mithril_brick"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rtwomod:block/log/moonwood_log_top",
+    "side": "rtwomod:block/log/moonwood_log"
+  }
+}
