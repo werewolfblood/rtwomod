@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rtwomod:fantasy/mordor_dirt_slab"
+    },
+    "type=double": {
+      "model": "rtwomod:fantasy/mordor_dirt"
+    },
+    "type=top": {
+      "model": "rtwomod:fantasy/mordor_dirt_slab_top"
+    }
+  }
+}

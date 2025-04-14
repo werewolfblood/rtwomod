@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rtwomod:fantasy/bloodroots_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rtwomod:fantasy/bloodroots_log"
+    },
+    "axis=z": {
+      "model": "rtwomod:fantasy/bloodroots_log_horizontal",
+      "x": 90
+    }
+  }
+}

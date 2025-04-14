@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "rtwomod:item/cold_steel_ingot"
+  }
+}

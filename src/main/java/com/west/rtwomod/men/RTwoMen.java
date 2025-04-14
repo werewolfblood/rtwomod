@@ -14,23 +14,25 @@ public class RTwoMen {
 
 
     public static final Block COLD_STEEL = registerBlock("cold_steel",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(10f).luminance(state -> 10)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 10)));
+    public static final Block COLD_STEEL_COBBLE = registerBlock("cold_steel_cobble",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 10)));
     public static final Block COLD_STEEL_BRICK = registerBlock("cold_steel_brick",
-            new Block(AbstractBlock.Settings.create().strength(11f)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block EMERALD_STONE = registerBlock("emerald_stone",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(11f).luminance(state -> 6)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 6)));
     public static final Block EMERALD_STONE_BRICK = registerBlock("emerald_stone_brick",
-            new Block(AbstractBlock.Settings.create().strength(11f)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block LIMESTONE = registerBlock("limestone",
-            new Block(AbstractBlock.Settings.create().strength(12)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block IRONTHAR = registerBlock("ironthar",
-            new Block(AbstractBlock.Settings.create().strength(12)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block GRAVOLYN = registerBlock("gravolyn",
-            new Block(AbstractBlock.Settings.create().strength(12)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block GRAVOLYN_BRICK = registerBlock("gravolyn_brick",
-            new Block(AbstractBlock.Settings.create().strength(12)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block ZEPHYRITE = registerBlock("zephyrite",
-            new Block(AbstractBlock.Settings.create().strength(12)));
+            new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block BROGARIS = registerBlock("brogaris",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f)));
     public static final Block BROGARIS_BRICK = registerBlock("brogaris_brick",

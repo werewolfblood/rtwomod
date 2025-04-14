@@ -1,6 +1,7 @@
 {
 "block.rtwomod.cold_steel": "cold_steel",
 "block.rtwomod.cold_steel_brick": "cold_steel_brick",
+"block.rtwomod.cold_steel_cobble": "cold_steel_cobble",
 "block.rtwomod.emerald_stone": "emerald_stone",
 "block.rtwomod.emerald_stone_brick": "emerald_stone_brick",
 "block.rtwomod.limestone":"limestone",
@@ -16,6 +17,7 @@
 "block.rtwomod.deepgray_brick":"deepgray_brick",
 "block.rtwomod.men_wiz_glass":"men_wiz_glass",
 "block.rtwomod.brimstone": "brimstone",
+"block.rtwomod.cretan_stone": "cretan_stone",
 
 
 "block.rtwomod.whisperwood":"whisperwood",
@@ -35,13 +37,17 @@
 "block.rtwomod.darkglow_log": "darkglow_log",
 "block.rtwomod.burn_mordor_log": "burn_mordor_log",
 "block.rtwomod.blueglow_log":"blueglow_log",
+"block.rtwomod.blueglow_branch":"blueglow_branch",
+"block.rtwomod.bloodroots_log":"bloodroots_log",
+"block.rtwomod.bloodroots_leaves":"bloodroots_leaves",
 
 
 
 
 
 
-
+"block.rtwomod.angband_stone": "angband_stone",
+"block.rtwomod.angband_brick":"angband_brick",
 "block.rtwomod.drowstone":"drowstone",
 "block.rtwomod.drowstone_bricks":"drowstone_bricks",
 "block.rtwomod.drow_brick":"drow_brick",
@@ -49,10 +55,17 @@
 "block.rtwomod.mordor_brick":"mordor_brick",
 "block.rtwomod.mordor_cobble": "mordor_cobble",
 "block.rtwomod.mordor_cobble1":"mordor_cobble1",
+"block.rtwomod.mordor_stone":"mordor_stone",
 "block.rtwomod.mordor_cobble_slab": "mordor_cobble_slab",
+"block.rtwomod.mordor_dirt":"mordor_dirt",
+"block.rtwomod.mordor_dirt1":"mordor_dirt1",
 "block.rtwomod.mithril_log":"mithril_log",
 "block.rtwomod.mithril_brick_slab": "mithril_brick_slab",
-
+"block.rtwomod.crystal_dirt": "crystal_dirt",
+"block.rtwomod.crystal_dirt1":"crystal_dirt1",
+"block.rtwomod.crystal_dirt_slab":"crystal_dirt_slab",
+"block.rtwomod.mordor_dirt_slab":"mordor_dirt_slab",
+"block.rtwomod.mordor_wall": "mordor_wall",
 
 "block.rtwomod.path_stone":"path_stone",
 "block.rtwomod.path_stone1": "path_stone1",

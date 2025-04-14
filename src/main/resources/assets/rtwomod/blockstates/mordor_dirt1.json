@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "layers=1": {
+      "model": "rtwomod:fantasy/mordor_dirt_height2"
+    },
+    "layers=2": {
+      "model": "rtwomod:fantasy/mordor_dirt_height4"
+    },
+    "layers=3": {
+      "model": "rtwomod:fantasy/mordor_dirt_height6"
+    },
+    "layers=4": {
+      "model": "rtwomod:fantasy/mordor_dirt_height8"
+    },
+    "layers=5": {
+      "model": "rtwomod:fantasy/mordor_dirt_height10"
+    },
+    "layers=6": {
+      "model": "rtwomod:fantasy/mordor_dirt_height12"
+    },
+    "layers=7": {
+      "model": "rtwomod:fantasy/mordor_dirt_height14"
+    },
+    "layers=8": {
+      "model": "rtwomod:fantasy/mordor_dirt"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package com.west.rtwomod;
 
 
+import com.west.rtwomod.fantasy.RTwoFantasy;
 import com.west.rtwomod.log.RTwoLog;
 import com.west.rtwomod.men.RTwoMen;
 import net.fabricmc.api.ClientModInitializer;
@@ -17,7 +18,9 @@ public class RTwoClient  implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(RTwoLog.DWARFOAK_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(RTwoLog.MOONWOOD_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(RTwoLog.SILVER_LEAVES, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(RTwoFantasy.BLOODROOTS_LEAVES, RenderLayer.getCutout());
 
+      
 
     }
 }

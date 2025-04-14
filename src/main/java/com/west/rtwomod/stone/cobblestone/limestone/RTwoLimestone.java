@@ -15,17 +15,17 @@ import net.minecraft.util.Identifier;
 
 public class RTwoLimestone {
     public static final Block LIMESTONE1 = registerBlock("limestone1", new Block(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
     public static final Block LIMESTONE2 = registerBlock("limestone2", new Block(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
     public static final Block LIMESTONE3 = registerBlock("limestone3", new Block(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
     public static final Block LIMESTONE4 = registerBlock("limestone4", new Cobble(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
     public static final Block LIMESTONE5 = registerBlock("limestone5", new Block(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
     public static final Block LIMESTONE6 = registerBlock("limestone6", new Block(
-            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(9F)));
+            AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(4F)));
 
 
 

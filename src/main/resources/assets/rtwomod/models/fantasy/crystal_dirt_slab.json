@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rtwomod:block/fantasy/crystal_dirt",
+    "side": "rtwomod:block/fantasy/crystal_dirt",
+    "top": "rtwomod:block/fantasy/crystal_dirt"
+  }
+}

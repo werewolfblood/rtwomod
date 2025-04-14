@@ -13,31 +13,55 @@ import net.minecraft.util.Identifier;
 
 public class RTwoFantasy {
     public static final Block DROWSTONE = registerBlock("drowstone",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(10f).luminance(state -> 9)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(6f).luminance(state -> 9)));
     public static final Block DROWSTONE_BRICKS = registerBlock("drowstone_bricks",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(10f).luminance(state -> 9)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(6f).luminance(state -> 9)));
     public static final Block DROW_BRICK = registerBlock("drow_brick",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(10f)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MITHRIL_BRICK = registerBlock("mithril_brick",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(10f)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(6f)));
     public static final Block MORDOR_BRICK = registerBlock("mordor_brick",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(10f)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MORDOR_COBBLE = registerBlock("mordor_cobble",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(10f)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
+    public static final Block MORDOR_STONE = registerBlock("mordor_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MORDOR_COBBLE_SLAB = registerBlock("mordor_cobble_slab",
-            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(10f)));
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MORDOR_COBBLE1 = registerBlock("mordor_cobble1",
-            new Cobble(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(10f)));
+            new Cobble(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
+    public static final Block ANGBAND_STONE = registerBlock("angband_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
+    public static final Block ANGBAND_BRICK = registerBlock("angband_brick",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MITHRIL_LOG = registerBlock("mithril_log",
-            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(10f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(7f).requiresTool()));
     public static final Block MITHRIL_BRICK_SLAB = registerBlock("mithril_brick_slab",
-            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(10f).requiresTool()));
-
-
-
-
-
-
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(6f).requiresTool()));
+    public static final Block SUN_LOG = registerBlock("sun_log",
+            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(7f).requiresTool()));
+    public static final Block SEVEN_LOG = registerBlock("seven_log",
+            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE).strength(7f).requiresTool()));
+    public static final Block BLOODROOTS_LOG = registerBlock("bloodroots_log",
+            new PillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(10f).requiresTool()));
+    public static final Block BLOODROOTS_LEAVES = registerBlock("bloodroots_leaves",
+            new LeavesBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(10f).requiresTool().noCollision()));
+    public static final Block MORDOR_DIRT = registerBlock("mordor_dirt",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block MORDOR_DIRT1 = registerBlock("mordor_dirt1",
+            new Cobble(AbstractBlock.Settings.copy(Blocks.DIRT).mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block CRYSTAL_DIRT = registerBlock("crystal_dirt",
+            new Block(AbstractBlock.Settings.copy(Blocks.DIRT).mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block CRYSTAL_DIRT1 = registerBlock("crystal_dirt1",
+            new Cobble(AbstractBlock.Settings.copy(Blocks.DIRT).mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block CRYSTAL_DIRT_SLAB = registerBlock("crystal_dirt_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT).mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block MORDOR_DIRT_SLAB = registerBlock("mordor_dirt_slab",
+            new SlabBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block MORDOR_WALL = registerBlock("mordor_wall",
+            new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block CRETAN_STONE = registerBlock("cretan_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(RTwomod.MOD_ID, name), block);

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rtwomod:fantasy/mordor_dirt"
+      },
+      {
+        "model": "rtwomod:fantasy/mordor_dirt",
+        "y": 90
+      },
+      {
+        "model": "rtwomod:fantasy/mordor_dirt",
+        "y": 180
+      },
+      {
+        "model": "rtwomod:fantasy/mordor_dirt",
+        "y": 270
+      }
+    ]
+  }
+}

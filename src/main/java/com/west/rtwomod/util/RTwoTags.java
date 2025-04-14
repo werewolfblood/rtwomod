@@ -9,7 +9,9 @@ import net.minecraft.util.Identifier;
 
 public class RTwoTags {
     public static class Blocks {
-
+        public static final TagKey<Block> COLD_STEEL_TOOL = createTag("cold_steel_tool");
+        public static final TagKey<Block> INCORRECT_MORDOR_TOOL = createTag("incorrect_mordor_tool");
+        public static final TagKey<Block> NEEDS_ANGBAND_TOOL = createTag("needs_angband_tool");
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(RTwomod.MOD_ID, name));
         }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rtwomod:block/fantasy/mordor_dirt",
+    "side": "rtwomod:block/fantasy/mordor_dirt",
+    "top": "rtwomod:block/fantasy/mordor_dirt"
+  }
+}

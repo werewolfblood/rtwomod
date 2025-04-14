@@ -24,6 +24,7 @@ public class RTwoItemGroups {
                     .displayName(Text.translatable("itemgroup.rtwomod.men"))
                     .entries((displayContext, entries) -> {
                         entries.add(RTwoMen.COLD_STEEL);
+                        entries.add(RTwoMen.COLD_STEEL_COBBLE);
                         entries.add(RTwoMen.COLD_STEEL_BRICK);
                         entries.add(RTwoMen.EMERALD_STONE);
                         entries.add(RTwoMen.EMERALD_STONE_BRICK);
@@ -64,6 +65,9 @@ public class RTwoItemGroups {
                         entries.add(RTwoLog.BURN_MORDOR_LOG);
                         entries.add(RTwoLog.BLUEGLOW_LOG);
                         entries.add(RTwoLog.DWARF_PINE_LOG);
+                        entries.add(RTwoLog.BLUEGLOW_BRANCH);
+
+
 
 
 
@@ -77,6 +81,8 @@ public class RTwoItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(RTwoFantasy.DROWSTONE))
                     .displayName(Text.translatable("itemgroup.rtwomod.fantasy"))
                     .entries((displayContext, entries) -> {
+                        entries.add(RTwoFantasy.ANGBAND_STONE);
+                        entries.add(RTwoFantasy.ANGBAND_BRICK);
                         entries.add(RTwoFantasy.DROWSTONE);
                         entries.add(RTwoFantasy.DROWSTONE_BRICKS);
                         entries.add(RTwoFantasy.DROW_BRICK);
@@ -84,9 +90,33 @@ public class RTwoItemGroups {
                         entries.add(RTwoFantasy.MORDOR_BRICK);
                         entries.add(RTwoFantasy.MORDOR_COBBLE);
                         entries.add(RTwoFantasy.MORDOR_COBBLE1);
+                        entries.add(RTwoFantasy.MORDOR_STONE);
                         entries.add(RTwoFantasy.MORDOR_COBBLE_SLAB);
                         entries.add(RTwoFantasy.MITHRIL_LOG);
+                        entries.add(RTwoFantasy.SUN_LOG);
+                        entries.add(RTwoFantasy.SEVEN_LOG);
                         entries.add(RTwoFantasy.MITHRIL_BRICK_SLAB);
+                        entries.add(RTwoFantasy.BLOODROOTS_LOG);
+                        entries.add(RTwoFantasy.BLOODROOTS_LEAVES);
+                        entries.add(RTwoFantasy.MORDOR_DIRT);
+                        entries.add(RTwoFantasy.MORDOR_DIRT1);
+                        entries.add(RTwoFantasy.CRYSTAL_DIRT);
+                        entries.add(RTwoFantasy.CRYSTAL_DIRT1);
+                        entries.add(RTwoFantasy.CRYSTAL_DIRT_SLAB);
+                        entries.add(RTwoFantasy.MORDOR_DIRT_SLAB);
+                        entries.add(RTwoFantasy.MORDOR_WALL);
+                        entries.add(RTwoItem.MORDOR_PICKAXE);
+                        entries.add(RTwoItem.BLACKIRON);
+                        entries.add(RTwoItem.BLACKIRON_AXE);
+                        entries.add(RTwoItem.BLACKIRON_SWORD);
+                        entries.add(RTwoItem.BLACKRED);
+                        entries.add(RTwoItem.COLD_STEEL_INGOT);
+                        entries.add(RTwoItem.ANGBAND_PICKAXE);
+                        entries.add(RTwoItem.ANGBAND_SWORD);
+                        entries.add(RTwoItem.COLD_STEEL_PICKAXE);
+                        entries.add(RTwoFantasy.CRETAN_STONE);
+                        entries.add(RTwoItem.MORDOR_DAGGER);
+                        entries.add(RTwoItem.WHITE_WIZZ_STAFF);
 
 
 
