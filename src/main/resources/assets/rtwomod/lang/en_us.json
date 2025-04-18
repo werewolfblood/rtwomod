@@ -18,6 +18,13 @@
 "block.rtwomod.men_wiz_glass":"men_wiz_glass",
 "block.rtwomod.brimstone": "brimstone",
 "block.rtwomod.cretan_stone": "cretan_stone",
+"block.rtwomod.stone1":"stone1",
+"block.rtwomod.willow_stone": "willow_stone",
+"block.rtwomod.deadsand":"deadsand",
+"block.rtwomod.deadsandstone":"deadsandstone",
+"block.rtwomod.sand_blood":"sand_blood",
+"block.rtwomod.greenelf_stone": "greenelf_stone",
+
 
 
 "block.rtwomod.whisperwood":"whisperwood",
@@ -40,6 +47,12 @@
 "block.rtwomod.blueglow_branch":"blueglow_branch",
 "block.rtwomod.bloodroots_log":"bloodroots_log",
 "block.rtwomod.bloodroots_leaves":"bloodroots_leaves",
+"block.rtwomod.ash_log":"ash_log",
+"block.rtwomod.angel_log": "angel_log",
+"block.rtwomod.istron_log":"istron_log",
+
+
+
 
 
 
@@ -53,12 +66,16 @@
 "block.rtwomod.drow_brick":"drow_brick",
 "block.rtwomod.mithril_brick": "mithril_brick",
 "block.rtwomod.mordor_brick":"mordor_brick",
+"block.rtwomod.mithril_brick1":"mithril_brick1",
 "block.rtwomod.mordor_cobble": "mordor_cobble",
 "block.rtwomod.mordor_cobble1":"mordor_cobble1",
 "block.rtwomod.mordor_stone":"mordor_stone",
 "block.rtwomod.mordor_cobble_slab": "mordor_cobble_slab",
 "block.rtwomod.mordor_dirt":"mordor_dirt",
 "block.rtwomod.mordor_dirt1":"mordor_dirt1",
+"block.rtwomod.deep_mordor":"deep_mordor",
+"block.rtwomod.mordor_steel":"mordor_steel",
+"block.rtwomod.moria_cobble":"moria_cobble",
 "block.rtwomod.mithril_log":"mithril_log",
 "block.rtwomod.mithril_brick_slab": "mithril_brick_slab",
 "block.rtwomod.crystal_dirt": "crystal_dirt",
@@ -66,6 +83,8 @@
 "block.rtwomod.crystal_dirt_slab":"crystal_dirt_slab",
 "block.rtwomod.mordor_dirt_slab":"mordor_dirt_slab",
 "block.rtwomod.mordor_wall": "mordor_wall",
+"block.rtwomod.bluemoss_stone":"bluemoss_stone",
+"block.rtwomod.mithril_cobble":"mithril_cobble",
 
 "block.rtwomod.path_stone":"path_stone",
 "block.rtwomod.path_stone1": "path_stone1",
@@ -81,6 +100,19 @@
 "block.rtwomod.limestone4" :"limestone4",
 "block.rtwomod.limestone5": "limestone5",
 "block.rtwomod.limestone6": "limestone6",
+"block.rtwomod.limestone7": "limestone7",
+"block.rtwomod.limestone8": "limestone8",
+"block.rtwomod.limestone9": "limestone9",
+"block.rtwomod.limestone10": "limestone10",
+"block.rtwomod.limestone_moss": "limestone_moss",
+"block.rtwomod.limestone_light":"limestone_light",
+"block.rtwomod.limestone_light1": "limestone_light1",
+"block.rtwomod.limestone_1":"limestone_l",
+"block.rtwomod.limestone11":"limestone11",
+"block.rtwomod.limestone12":"limestone12",
+
+
+
 
 
 
@@ -89,6 +121,31 @@
 "block.rtwomod.andesite2": "andesite2",
 "block.rtwomod.andesite3": "andesite3",
 "block.rtwomod.andesite4": "andesite4",
+"block.rtwomod.andesite5":"andesite5",
+"block.rtwomod.andesite6":"andesite6",
+"block.rtwomod.andesite_stone":"andesite_stone",
+"block.rtwomod.andesite_stone1":"andesite_stone1",
+"block.rtwomod.andesite_stone2":"andesite_stone2",
+"block.rtwomod.andesite_stone3":"andesite_stone3",
+"block.rtwomod.andesite_stone4":"andesite_stone4",
+"block.rtwomod.andesite_cobble":"andesite_cobble",
+"block.rtwomod.andesite_cobble1": "andesite_cobble1",
+"block.rtwomod.andesite_cobble2": "andesite_cobble2",
+"block.rtwomod.andesite_cobble3": "andesite_cobble3",
+"block.rtwomod.andesite_cobble4": "andesite_cobble4",
+
+
+
+
+
+
+"block.rtwomod.moss_stone":"moss_stone",
+"block.rtwomod.moss_stone1":"moss_stone1",
+"block.rtwomod.moss_stone2":"moss_stone2",
+"block.rtwomod.moss_stone_1":"moss_stone_1",
+"block.rtwomod.moss_stone_2":"moss_stone_2",
+"block.rtwomod.moss_stone3":"moss_stone3",
+"block,rtwomod.moss_stone_3":"moss_stone_3",
 
 
 
@@ -97,7 +154,19 @@
 
 
 
+"block.rtwomod.mycelium": "mycelium",
+"block.rtwomod.mycelium_stone":"mycelium_stone",
+"block.rtwomod.mycelium_stone1": "mycelium_stone1",
 
+
+
+
+"block.rtwomod.silver_stone":"silver_stone",
+"block.rtwomod.deep_stone":"deep_stone",
+"block.rtwomod.deep_cobble":"deep_cobble",
+"block.rtwomod.tin_cobble":"tin_cobble",
+"block.rtwomod.blood_cobble":"blood_cobble",
+"block.rtwomod.night_cobble":"night_cobble",
 
 
 
@@ -115,5 +184,8 @@
    "itemgroup.rtwomod.fantasy": "fantasy",
 "itemgroup.rtwomod.stone": "stone",
 "itemgroup.rtwomod.limestone": "limestone",
-"itemgroup.rtwomod.ANDESITE": "andesite"
+"itemgroup.rtwomod.ANDESITE": "andesite",
+"itemgroup.rtwomod.moss": "moss",
+"itemgroup.rtwomod.mycelium": "mycelium",
+"itemgroup.rtwomod.dnd": "dnd"
 }

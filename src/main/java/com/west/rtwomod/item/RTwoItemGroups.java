@@ -2,11 +2,14 @@ package com.west.rtwomod.item;
 
 import com.west.rtwomod.RTwomod;
 import com.west.rtwomod.fantasy.RTwoFantasy;
+import com.west.rtwomod.fantasy.dnd.RTwoDnd;
 import com.west.rtwomod.log.RTwoLog;
 import com.west.rtwomod.men.RTwoMen;
 import com.west.rtwomod.stone.RTwoStone;
 import com.west.rtwomod.stone.cobblestone.andesite.RTwoAndesite;
 import com.west.rtwomod.stone.cobblestone.limestone.RTwoLimestone;
+import com.west.rtwomod.stone.moss.RTwoMoss;
+import com.west.rtwomod.stone.mycelium.RTwoMycelium;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -30,10 +33,10 @@ public class RTwoItemGroups {
                         entries.add(RTwoMen.EMERALD_STONE_BRICK);
                         entries.add(RTwoMen.LIMESTONE);
                         entries.add(RTwoMen.IRONTHAR);
-                        entries.add(RTwoMen.GRAVOLYN);
+                        entries.add(RTwoMen.GRAVOLYN_STONE);
                         entries.add(RTwoMen.GRAVOLYN_BRICK);
                         entries.add(RTwoMen.ZEPHYRITE);
-                        entries.add(RTwoMen.BROGARIS);
+                        entries.add(RTwoMen.BROGARIS_STONE);
                         entries.add(RTwoMen.BROGARIS_BRICK);
                         entries.add(RTwoMen.GRAY_BRICK);
                         entries.add(RTwoMen.GRAY_STONE);
@@ -45,6 +48,8 @@ public class RTwoItemGroups {
                         entries.add(RTwoMen.EMBERBARK_LOG);
                         entries.add(RTwoMen.EMBERLEAVES);
                         entries.add(RTwoMen.BRIMSTONE);
+                        entries.add(RTwoMen.STONE1);
+                        entries.add(RTwoMen.WILLOW_STONE);
                     }).build());
 
 
@@ -65,7 +70,7 @@ public class RTwoItemGroups {
                         entries.add(RTwoLog.BURN_MORDOR_LOG);
                         entries.add(RTwoLog.BLUEGLOW_LOG);
                         entries.add(RTwoLog.DWARF_PINE_LOG);
-                        entries.add(RTwoLog.BLUEGLOW_BRANCH);
+
 
 
 
@@ -81,12 +86,16 @@ public class RTwoItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(RTwoFantasy.DROWSTONE))
                     .displayName(Text.translatable("itemgroup.rtwomod.fantasy"))
                     .entries((displayContext, entries) -> {
+                        entries.add(RTwoFantasy.BLACK_STONE);
                         entries.add(RTwoFantasy.ANGBAND_STONE);
                         entries.add(RTwoFantasy.ANGBAND_BRICK);
                         entries.add(RTwoFantasy.DROWSTONE);
                         entries.add(RTwoFantasy.DROWSTONE_BRICKS);
                         entries.add(RTwoFantasy.DROW_BRICK);
                         entries.add(RTwoFantasy.MITHRIL_BRICK);
+                        entries.add(RTwoFantasy.MITHRIL_COBBLE);
+                        entries.add(RTwoFantasy.MITHRIL_BRICK1);
+                        entries.add(RTwoFantasy.BLUEMOSS_STONE);
                         entries.add(RTwoFantasy.MORDOR_BRICK);
                         entries.add(RTwoFantasy.MORDOR_COBBLE);
                         entries.add(RTwoFantasy.MORDOR_COBBLE1);
@@ -117,6 +126,10 @@ public class RTwoItemGroups {
                         entries.add(RTwoFantasy.CRETAN_STONE);
                         entries.add(RTwoItem.MORDOR_DAGGER);
                         entries.add(RTwoItem.WHITE_WIZZ_STAFF);
+                        entries.add(RTwoFantasy.GREENELF_STONE);
+                        entries.add(RTwoFantasy.DEADSAND);
+                        entries.add(RTwoFantasy.SAND_BLOOD);
+                        entries.add(RTwoFantasy.DEADSANDSTONE);
 
 
 
@@ -141,6 +154,7 @@ public class RTwoItemGroups {
 
 
 
+
                     }).build());
     public static final ItemGroup limestone = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(RTwomod.MOD_ID, "limestone"),
@@ -153,6 +167,17 @@ public class RTwoItemGroups {
                         entries.add(RTwoLimestone.LIMESTONE4);
                         entries.add(RTwoLimestone.LIMESTONE5);
                         entries.add(RTwoLimestone.LIMESTONE6);
+                        entries.add(RTwoLimestone.LIMESTONE7);
+                        entries.add(RTwoLimestone.LIMESTONE8);
+                        entries.add(RTwoLimestone.LIMESTONE9);
+                        entries.add(RTwoLimestone.LIMESTONE10);
+                        entries.add(RTwoLimestone.LIMESTONE_MOSS);
+                        entries.add(RTwoLimestone.LIMESTONE_MOSS1);
+                        entries.add(RTwoLimestone.LIMESTONE_LIGHT);
+                        entries.add(RTwoLimestone.LIMESTONE_LIGHT1);
+                        entries.add(RTwoLimestone.LIMESTONE_LIGHT2);
+                        entries.add(RTwoLimestone.LIMESTONE11);
+                        entries.add(RTwoLimestone.LIMESTONE12);
 
 
 
@@ -171,6 +196,84 @@ public class RTwoItemGroups {
                        entries.add(RTwoAndesite.ANDESITE2);
                        entries.add(RTwoAndesite.ANDESITE3);
                        entries.add(RTwoAndesite.ANDESITE4);
+                       entries.add(RTwoAndesite.ANDESITE5);
+                       entries.add(RTwoAndesite.ANDESITE6);
+                       entries.add(RTwoAndesite.ANDESITE_STONE);
+                       entries.add(RTwoAndesite.ANDESITE_STONE1);
+                       entries.add(RTwoAndesite.ANDESITE_STONE2);
+                       entries.add(RTwoAndesite.ANDESITE_STONE3);
+                       entries.add(RTwoAndesite.ANDESITE_STONE4);
+                       entries.add(RTwoAndesite.ANDESITE_COBBLE);
+                       entries.add(RTwoAndesite.ANDESITE_COBBLE1);
+                       entries.add(RTwoAndesite.ANDESITE_COBBLE2);
+                       entries.add(RTwoAndesite.ANDESITE_COBBLE3);
+                       entries.add(RTwoAndesite.ANDESITE_COBBLE4);
+
+
+
+
+
+
+
+                    }).build());
+
+    public static final ItemGroup moss = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(RTwomod.MOD_ID, "moss"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(RTwoMoss.MOSS_STONE))
+                    .displayName(Text.translatable("itemgroup.rtwomod.moss"))
+                    .entries((displayContext, entries) -> {
+                       entries.add(RTwoMoss.MOSS_STONE);
+                       entries.add(RTwoMoss.MOSS_STONE1);
+                       entries.add(RTwoMoss.MOSS_STONE2);
+                       entries.add(RTwoMoss.MOSS_STONE_1);
+                       entries.add(RTwoMoss.MOSS_STONE_2);
+                       entries.add(RTwoMoss.MOSS_STONE3);
+                       entries.add(RTwoMoss.MOSS_STONE_3);
+
+
+
+
+
+
+
+                    }).build());
+
+    public static final ItemGroup mycelium = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(RTwomod.MOD_ID, "mycelium"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(RTwoMycelium.MYCELIUM))
+                    .displayName(Text.translatable("itemgroup.rtwomod.mycelium"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(RTwoMycelium.MYCELIUM);
+                        entries.add(RTwoMycelium.MYCELIUM_STONE);
+                        entries.add(RTwoMycelium.MYCELIUM_STONE1);
+
+
+
+
+
+
+
+                    }).build());
+    public static final ItemGroup dnd = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(RTwomod.MOD_ID, "dnd"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(RTwoDnd.SILVER_STONE))
+                    .displayName(Text.translatable("itemgroup.rtwomod.dnd"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(RTwoDnd.SILVER_STONE);
+                        entries.add(RTwoDnd.DEEP_STONE);
+                        entries.add(RTwoDnd.DEEP_COBBLE);
+                        entries.add(RTwoDnd.TIN_COBBLE);
+                        entries.add(RTwoDnd.BLOOD_COBBLE);
+                        entries.add(RTwoDnd.NIGHT_COBBLE);
+                        entries.add(RTwoDnd.MORIA_STONE);
+                        entries.add(RTwoDnd.MORIA_BRICK);
+                        entries.add(RTwoDnd.MORDOR_STEEL);
+                        entries.add(RTwoDnd.DEEP_MORDOR);
+                        entries.add(RTwoDnd.ASH_LOG);
+                        entries.add(RTwoDnd.ANGEL_LOG);
+                        entries.add(RTwoDnd.ISTRON_LOG);
+
+
 
 
 

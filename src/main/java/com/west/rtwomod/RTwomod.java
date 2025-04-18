@@ -1,6 +1,7 @@
 package com.west.rtwomod;
 
 import com.west.rtwomod.fantasy.RTwoFantasy;
+import com.west.rtwomod.fantasy.dnd.RTwoDnd;
 import com.west.rtwomod.item.RTwoItem;
 import com.west.rtwomod.item.RTwoItemGroups;
 import com.west.rtwomod.log.RTwoLog;
@@ -8,6 +9,8 @@ import com.west.rtwomod.men.RTwoMen;
 import com.west.rtwomod.stone.RTwoStone;
 import com.west.rtwomod.stone.cobblestone.andesite.RTwoAndesite;
 import com.west.rtwomod.stone.cobblestone.limestone.RTwoLimestone;
+import com.west.rtwomod.stone.moss.RTwoMoss;
+import com.west.rtwomod.stone.mycelium.RTwoMycelium;
 import net.fabricmc.api.ModInitializer;
 
 
@@ -23,7 +26,10 @@ public class RTwomod implements ModInitializer {
 		RTwoLog.registerModBlocks();
 		RTwoMen.registerModBlocks();
 		RTwoFantasy.registerModBlocks();
+		RTwoDnd.registerModBlocks();
 		RTwoStone.registerModBlocks();
+		RTwoMoss.registerModBlocks();
+		RTwoMycelium.registerModBlocks();
 		RTwoAndesite.registerModBlocks();
 		RTwoLimestone.registerModBlocks();
 		RTwoItemGroups.registerItemGroups();

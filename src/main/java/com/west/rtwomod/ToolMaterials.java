@@ -1,32 +1,21 @@
 package com.west.rtwomod;
 
+
 import com.google.common.base.Suppliers;
-import com.west.rtwomod.item.RTwoItem;
 import com.west.rtwomod.util.RTwoTags;
 import net.minecraft.block.Block;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
 
 import java.util.function.Supplier;
 
-public class ToolMaterials implements ToolMaterial {
-    public static final ToolMaterials MORDOR_INSTANCE = new ToolMaterials(
-         RTwoTags.Blocks.INCORRECT_MORDOR_TOOL,
-            1200, 5.0F, 4.0F, 22, 
-            () -> Ingredient.ofItems(RTwoItem.MORDOR_PICKAXE));
-            
-    public static final ToolMaterials COLD_STEEL_INSTANCE = new ToolMaterials(
-            RTwoTags.Blocks.COLD_STEEL_TOOL,
-            1200, 5.0F, 4.0F, 22,
-            () -> Ingredient.ofItems(RTwoItem.COLD_STEEL_PICKAXE));
 
-    public static final ToolMaterials ANGBAND_INSTANCE = new ToolMaterials(
-            RTwoTags.Blocks.NEEDS_ANGBAND_TOOL,
-            1200, 5.0F, 4.0F, 22,
-            () -> Ingredient.ofItems(RTwoItem.ANGBAND_PICKAXE));
-
-
+public enum ToolMaterials implements ToolMaterial {
+    BLACKIRON(RTwoTags.Blocks.INCORRECT_MORDOR_TOOL, 3021, 12.0F, 9.0F, 20,() -> Ingredient.ofItems(Items.IRON_INGOT)),
+    BLACKRED(RTwoTags.Blocks.INCORRECT_ANGBAND_TOOL, 3021, 20.0F, 10.0F, 20,()-> Ingredient.ofItems(Items.IRON_INGOT)),
+    COLD_STEEL_INGOT(RTwoTags.Blocks.INCORRECT_COLD_STEEL_TOOL, 4021, 13.0F, 10.0F, 30,()-> Ingredient.ofItems(Items.IRON_INGOT));
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
     private final float miningSpeed;
@@ -34,8 +23,14 @@ public class ToolMaterials implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ToolMaterials(final TagKey<Block> inverseTag, final int itemDurability,final float miningSpeed,
-                     final float attackDamage, final int enchantability,final Supplier<Ingredient> repairIngredient) {
+     ToolMaterials(
+            final TagKey<Block> inverseTag,
+            final int itemDurability,
+            final float miningSpeed,
+            final float attackDamage,
+            final int enchantability,
+            final Supplier<Ingredient> repairIngredient
+    ) {
         this.inverseTag = inverseTag;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
@@ -71,6 +66,6 @@ public class ToolMaterials implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        return this.repairIngredient.get();
+        return (Ingredient)this.repairIngredient.get();
     }
 }

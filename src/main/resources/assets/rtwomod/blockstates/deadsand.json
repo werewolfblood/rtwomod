@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rtwomod:fantasy/deadsand"
+      },
+      {
+        "model": "rtwomod:fantasy/deadsand",
+        "y": 90
+      },
+      {
+        "model": "rtwomod:fantasy/deadsand",
+        "y": 180
+      },
+      {
+        "model": "rtwomod:fantasy/deadsand",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -9,13 +9,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class RTwoFantasy {
     public static final Block DROWSTONE = registerBlock("drowstone",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(6f).luminance(state -> 9)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(3f).luminance(state -> 9)));
     public static final Block DROWSTONE_BRICKS = registerBlock("drowstone_bricks",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(6f).luminance(state -> 9)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.PALE_PURPLE).strength(3f).luminance(state -> 9)));
     public static final Block DROW_BRICK = registerBlock("drow_brick",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
     public static final Block MITHRIL_BRICK = registerBlock("mithril_brick",
@@ -62,6 +63,35 @@ public class RTwoFantasy {
             new WallBlock(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
     public static final Block CRETAN_STONE = registerBlock("cretan_stone",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(2.0f).requiresTool()));
+    public static final Block BLUEMOSS_STONE = registerBlock("bluemoss_stone",
+            new Block(AbstractBlock.Settings.copy(Blocks.MOSSY_COBBLESTONE).requiresTool().mapColor(DyeColor.GREEN)));
+    public static final Block MITHRIL_COBBLE = registerBlock("mithril_cobble",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLUE).strength(3F)));
+    public static final Block MITHRIL_BRICK1 = registerBlock("mithril_brick1",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLUE).strength(4F)));
+    public static final Block BLACK_STONE = registerBlock("black_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
+    public static final Block GREENELF_STONE = registerBlock("greenelf_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLACK).strength(6f)));
+    public static final Block TOMESTONE = registerBlock("tomestone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(5f)));
+    public static final Block DEADSAND = registerBlock("deadsand",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(3F)));
+    public static final Block SAND_BLOOD = registerBlock("sand_blood",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(4f)));
+    public static final Block DEADSANDSTONE = registerBlock("deadsandstone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(4f)));
+
+
+
+
+
+
+
+
+
+
+
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(RTwomod.MOD_ID, name), block);

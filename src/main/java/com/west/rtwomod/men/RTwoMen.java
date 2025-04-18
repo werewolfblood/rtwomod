@@ -8,13 +8,14 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 
 public class RTwoMen {
 
 
     public static final Block COLD_STEEL = registerBlock("cold_steel",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 10)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 10).requiresTool()));
     public static final Block COLD_STEEL_COBBLE = registerBlock("cold_steel_cobble",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(5f).luminance(state -> 10)));
     public static final Block COLD_STEEL_BRICK = registerBlock("cold_steel_brick",
@@ -27,18 +28,18 @@ public class RTwoMen {
             new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block IRONTHAR = registerBlock("ironthar",
             new Block(AbstractBlock.Settings.create().strength(5f)));
-    public static final Block GRAVOLYN = registerBlock("gravolyn",
+    public static final Block GRAVOLYN_STONE = registerBlock("gravolyn_stone",
             new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block GRAVOLYN_BRICK = registerBlock("gravolyn_brick",
             new Block(AbstractBlock.Settings.create().strength(5f)));
     public static final Block ZEPHYRITE = registerBlock("zephyrite",
             new Block(AbstractBlock.Settings.create().strength(5f)));
-    public static final Block BROGARIS = registerBlock("brogaris",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f)));
+    public static final Block BROGARIS_STONE = registerBlock("brogaris_stone",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f).requiresTool()));
     public static final Block BROGARIS_BRICK = registerBlock("brogaris_brick",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f)));
     public static final Block GRAY_BRICK = registerBlock("gray_brick",
-            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f)));
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f).requiresTool()));
     public static final Block GRAY_STONE = registerBlock("gray_stone",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(8f)));
     public static final Block DEEPGRAY_STONE = registerBlock("deepgray_stone",
@@ -57,6 +58,10 @@ public class RTwoMen {
             new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).mapColor(MapColor.RED)));
     public static final Block BRIMSTONE = registerBlock("brimstone",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.YELLOW).strength(10f)));
+    public static final Block STONE1 = registerBlock("stone1",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE).strength(5F).mapColor(DyeColor.GRAY).requiresTool()));
+    public static final Block WILLOW_STONE = registerBlock("willow_stone",
+            new Block(AbstractBlock.Settings.copy(Blocks.STONE).strength(5F).mapColor(DyeColor.GRAY).requiresTool()));
 
 
     public static Block registerBlock(String name, Block block) {

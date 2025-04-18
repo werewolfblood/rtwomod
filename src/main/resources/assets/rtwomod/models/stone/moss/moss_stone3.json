@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rtwomod:block/stone/moss/moss_stone_3"
+  }
+}

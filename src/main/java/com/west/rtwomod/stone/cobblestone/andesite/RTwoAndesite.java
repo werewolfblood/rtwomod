@@ -22,6 +22,32 @@ public class RTwoAndesite {
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.DARK_RED).requiresTool().strength(5.0f)));
     public static final Block ANDESITE4 = registerBlock("andesite4",
             new Cobble(AbstractBlock.Settings.create().mapColor(MapColor.DARK_RED).requiresTool().strength(5.0f)));
+    public static final Block ANDESITE5 = registerBlock("andesite5",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).strength(4f).requiresTool()));
+    public static final Block ANDESITE6 = registerBlock("andesite6",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).requiresTool().strength(4f)));
+    public static final Block ANDESITE_STONE = registerBlock("andesite_stone",
+            new Block(AbstractBlock.Settings.create().strength(4F).mapColor(MapColor.GRAY)));
+    public static final Block ANDESITE_STONE1 = registerBlock("andesite_stone1",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).strength(4f)));
+    public static final Block ANDESITE_STONE2 = registerBlock("andesite_stone2",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).strength(4f)));
+    public static final Block ANDESITE_STONE3 = registerBlock("andesite_stone3",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).strength(4f)));
+    public static final Block ANDESITE_STONE4 = registerBlock("andesite_stone4",
+            new Block(AbstractBlock.Settings.create().mapColor(MapColor.GRAY).strength(4f)));
+    public static final Block ANDESITE_COBBLE = registerBlock("andesite_cobble",
+            new Block(AbstractBlock.Settings.create().strength(3F).mapColor(MapColor.GRAY)));
+    public static final Block ANDESITE_COBBLE1 = registerBlock("andesite_cobble1",
+            new Block(AbstractBlock.Settings.create().strength(3F).mapColor(MapColor.GRAY)));
+    public static final Block ANDESITE_COBBLE2 = registerBlock("andesite_cobble2",
+            new Block(AbstractBlock.Settings.create().strength(3F).mapColor(MapColor.GRAY)));
+    public static final Block ANDESITE_COBBLE3 = registerBlock("andesite_cobble3",
+            new Block(AbstractBlock.Settings.create().strength(3F).mapColor(MapColor.GRAY)));
+    public static final Block ANDESITE_COBBLE4 = registerBlock("andesite_cobble4",
+            new Cobble(AbstractBlock.Settings.create().strength(3F).mapColor(MapColor.GRAY)));
+
+
 
 
 

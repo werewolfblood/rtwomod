@@ -17,7 +17,7 @@ import net.minecraft.world.World;
 
 public class Mordor_PickAxe extends net.minecraft.item.PickaxeItem {
     public Mordor_PickAxe(Settings settings) {
-        super(ToolMaterials.MORDOR_INSTANCE, settings);
+        super(ToolMaterials.BLACKIRON, settings);
     }
 
     @Override

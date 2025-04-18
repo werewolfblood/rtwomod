@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rtwomod:fantasy/sand_blood"
+      },
+      {
+        "model": "rtwomod:fantasy/sand_blood",
+        "y": 90
+      },
+      {
+        "model": "rtwomod:fantasy/sand_blood",
+        "y": 180
+      },
+      {
+        "model": "rtwomod:fantasy/sand_blood",
+        "y": 270
+      }
+    ]
+  }
+}

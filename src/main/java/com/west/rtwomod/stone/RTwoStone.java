@@ -22,6 +22,12 @@ public class RTwoStone {
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(2f)));
     public static final Block PATH_STONE3 = registerBlock("path_stone3",
             new Cobble(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).strength(2f)));
+   public static final Block DEEP_REDSTONE = registerBlock("deep_redstone",
+           new Block(AbstractBlock.Settings.create().mapColor(MapColor.RED).strength(4F)));
+   public static final Block DEEP_GLOWSTONE = registerBlock("deep_glowstone",
+           new Block(AbstractBlock.Settings.create().mapColor(MapColor.CYAN).luminance(state -> 9)));
+   public static final  Block DEEP_MITHRIL_STONE = registerBlock("deep_mithril_stone",
+           new Block(AbstractBlock.Settings.create().mapColor(MapColor.BLUE).strength(3F).luminance(state -> 9)));
 
 
 
